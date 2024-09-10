@@ -1,0 +1,129 @@
+<!--
+Charles Bennington
+CPSC 322-01
+HW2
+9/9/2024
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Charles Bennington</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+</head>
+
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>
+
+<body>
+
+<h1>Charles Bennington</h1>
+
+<img alt="An image of Charles" src="profile-Image.jpg" height="350">
+
+<p><em>Meet Charles</em>, a highly motivated Computer Science Student with a passion for developing innovative solutions.
+    Skilled in software development, UI Design, and database design, with a proven track record of meeting deadlines, improving efficiency, and saving money
+    Collaborative team player with a strong commitment to delivering exceptional results and driving business success.
+</p>
+<table>
+    <tr>
+        <th>Technical Skills</th>
+        <th>Soft Skills</th>
+    </tr>
+    <tr>
+        <td>
+            <ul style="list-style-type: none">
+
+                <li>
+                    <div class="dropdown">
+                        <progress id="file" value="80" max="100"> 32% </progress>
+                        <label for="file">JAVA:</label>
+                        <div class="dropdown-content">
+                            <p>5 Yrs of JAVA</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <progress id="file1" value="50" max="100"> 32% </progress>
+                        <label for="file1">C++:</label>
+                        <div class="dropdown-content">
+                            <p>3 Yrs of C++</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <progress id="file2" value="20" max="100"> 32% </progress>
+                        <label for="file2"> HTML</label>
+                        <div class="dropdown-content">
+                            <p>1 Yrs of HTML/CSS/.js</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>
+                    <div class="dropdown">
+                        <progress id="file3" value="80" max="100"> 32% </progress>
+                        <label for="file3">UI Design</label>
+                        <div class="dropdown-content">
+                            <p>Several Classes in UI Deisgn, passed all with A</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <progress id="file4" value="80" max="100"> 32% </progress>
+                        <label for="file4">Web Development</label>
+                        <div class="dropdown-content">
+                            <p>Several Classes in Web Development, passed all with A</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <progress id="file5" value="95" max="100"> 32% </progress>
+                        <label for="file5">People skills</label>
+                        <div class="dropdown-content">
+                            <p>Placed in multiple leadership positions</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+
+
+
+</body>
+<footer>
+    <div style="border: solid">
+        <a href="index.html"><h4>Main page</h4></a>
+        <a href="Career-Summary.html"><h4>Career Summary</h4></a>
+        <a href="Education-and-Qualifications.html"><h4>Education and Qualifications</h4></a>
+        <a href="Interests-and-Hobbies.html"><h4>Interests and Hobbies</h4></a>
+    </div>
+</footer>
+</html>
